@@ -1,22 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FormicForm from "./FormicForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h3>Registration Form</h3>
+        <hr style={{  width: "300px", height: "0.2px" }}></hr>
+        <FormicForm></FormicForm>
       </header>
     </div>
   );
